@@ -1,0 +1,50 @@
+main{
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.thankYou-card{
+    background-color: var(--dark-blue);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2.5rem;
+    border-radius: 14px;
+    padding: 2.5rem;
+    font-size: 15px;
+ 
+    width: 32rem;
+    height: 55%;
+    max-height: 60%;
+    max-width: 32rem;    
+}
+.thankYou-card img{
+    width: 15rem;
+}
+.thankYou-card .rating-selected{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 18rem;
+    height: 3rem;
+    border-radius: 18px;
+    background-color: var(--dark-grey);
+}
+.thankYou-card .rating-selected p{
+    color: var(--orange);
+    text-align: center;
+}
+
+h1{
+    color: white;
+}
+
+p{
+    color: var(--light-grey);
+    text-align: center;
+}
