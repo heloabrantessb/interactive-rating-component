@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Overpass', sans-serif;
+}
+:root{
+    font-size: 62.5%;
+
+    --orange:#fb7413;
+    --light-grey:#959eac;
+    --dark-blue:#252d37;
+    --darker-blue:#121417;
+}
+body{
+    font-size: 1.6rem;
+}
