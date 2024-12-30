@@ -1,4 +1,9 @@
-
+.star,
+h1,
+p,
+.rating-buttons{
+    margin-bottom: 1.5rem;
+}
 main{
     height: 100vh;
     width: 100vw;
@@ -11,13 +16,11 @@ main{
     background-color: var(--dark-blue);
     display: flex;
     flex-direction: column;
-    gap: 2.5rem;
     border-radius: 14px;
     padding: 2rem;
     font-size: 15px;
 
     width: 32rem;
-    height: 50%;
     max-height: 60%;
     max-width: 32rem;
 
@@ -38,16 +41,28 @@ main{
     justify-content: space-between;
     text-align: center;
 }
-.card-component .rating-buttons a{
-    text-decoration: none;
-    color: var(--light-grey);
+.rating-buttons input[type="radio"]{
+    display: none;
+}
+.rating-buttons label{
     background-color: var(--dark-grey);
     border-radius: 50%;
     width: 4rem;
     height: 4rem;
+    color: var(--light-grey);
+
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.rating-buttons label:hover{
+    background-color: var(--orange);
+    color: var(--dark-blue);
+}
+.rating-buttons input[type="radio"]:checked + label{
+    background-color: white;
+    color: var(--dark-blue);
 }
 .card-component .submit{
     background-color: var(--orange);
@@ -57,6 +72,10 @@ main{
     font-weight: 400;
     border: none;
     outline: none;
+    cursor: pointer;
+}
+.card-component .submit:hover{
+    background-color: white;
 }
 
 h1{
