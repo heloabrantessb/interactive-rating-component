@@ -64,7 +64,7 @@ main{
     background-color: white;
     color: var(--dark-blue);
 }
-.card-component .submit{
+.card-component #submit{
     background-color: var(--orange);
     border-radius: 20px;
     height: 4rem;
@@ -74,7 +74,7 @@ main{
     outline: none;
     cursor: pointer;
 }
-.card-component .submit:hover{
+.card-component #submit:hover{
     background-color: white;
 }
 
